@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: zombies-online
+    runtime: node
+    buildCommand: npm install --omit=dev
+    startCommand: node server/server.js
+    healthCheckPath: /health
+    plan: free

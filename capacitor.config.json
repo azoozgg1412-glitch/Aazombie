@@ -1,0 +1,8 @@
+{
+  "appId": "com.example.zombies",
+  "appName": "End of a World",
+  "webDir": "public",
+  "backgroundColor": "#050505",
+  "android": { "allowMixedContent": false },
+  "ios": { "contentInset": "never" }
+}
